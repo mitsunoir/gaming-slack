@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name        Slack Gaming Theme
+@namespace   StylusThemes
+@version     1.0.0
+@license     MIT
+@author      mitsunoir
+==/UserStyle== */
+@-moz-document domain("app.slack.com") {
+   .c-wysiwyg_container__footer, .p-bookmarks_bar, .p-view_header, .p-message_input__input_container_unstyled, .p-message_pane_input, .c-message_kit__gutter, .c-virtual_list__scroll_container {
+       color: white;
+       font-weight: bold;
+       background-clip: text;
+       background-image: linear-gradient(60deg,
+           red,
+           orange,
+           yellow,
+           green,
+           aqua,
+           blue,
+           purple);
+       background-size: 1200%;
+       animation: 5s linear 0s infinite alternate slide;
+   }
+   
+   @keyframes slide {
+       from { background-position: 0% 0%; }
+       to { background-position: 100% 0%; }
+   }
+}

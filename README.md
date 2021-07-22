@@ -11,7 +11,7 @@ This may not work when the DOM structure or CSS style of app.slack.com.
 ## Installation
 
 1. Add [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to your browser.
-2. Copy and Paste the content of `gaming-slack.gif`.
+2. Copy and Paste the content of `gaming-slack.css`.
 3. Congratulation.
 
 ## References
